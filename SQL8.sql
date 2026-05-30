@@ -51,3 +51,6 @@ WHERE health = '' OR health IS NULL;
 SELECT * FROM Restaurant
 ORDER BY review DESC
 LIMIT 4;
+
+SELECT *FROM Restaurant 
+WHERE price = '$$$$' and name like '%Candy%';
